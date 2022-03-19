@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+
+    </script>
+<script src="MDG1.js">
+
+</script>
+<link rel="stylesheet" href="MDG2.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Food Guesser </title>
+</head>
+
+<body id="center001">
+
+    <div id="div1">
+        <h1 strong class="page1"><u>꧁༒☬𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓓𝓮𝓵𝓲𝓬𝓪𝓬𝔂 𝓓𝓮𝓽𝓮𝓬𝓽𝓸𝓻☬༒꧂</u></h1>
+
+        <p class="h001; page1"><strong> "𝙳𝚎𝚕𝚒𝚌𝚊𝚌𝚢 𝙳𝚎𝚝𝚎𝚌𝚝𝚘𝚛" </strong> 𝚊 𝚏𝚞𝚗 𝚊𝚗𝚍 𝚎𝚗𝚐𝚊𝚐𝚒𝚗𝚐
+            𝚐𝚊𝚖𝚎 𝚎𝚜𝚙𝚎𝚌𝚒𝚊𝚕𝚕𝚢 𝚏𝚘𝚛 𝙵𝚘𝚘𝚍 𝙴𝚗𝚝𝚑𝚞𝚜𝚒𝚊𝚜𝚝𝚜.</p>
+        <p class="h002 page1"><strong>Instructions:</strong><br /></p>
+        <p class="instructionsBox">
+            <br>
+
+            1.Welcome to Delicacy detector, to start the game press the play button<br />
+            <br>
+            2.As soon as you start the game you would see three images accomponied by text input section<br />
+            <br>
+            3.Enter the correct answers to all the images and become a food master <br />
+            <br>
+            4.Don't worry you would be provided a hint to every question <br />
+            <br>
+            5.If answer to the question is incorrect you would get correct answer to it immediately after
+            submission.<br />
+            <br>
+            <br>
+
+        </p>
+
+    </div>
+
+    <div id="welcomeDiv" style="display:none;">
+        <br>
+        <br>
+        <br>
+        <div id="frame001" class="b1">
+            <div id="color003" class="pallete1">
+                <div id="center001">
+                    <h1>🅳🅴🅻🅸🅲🅰🅲🆈 🅳🅴🆃🅴🅲🆃🅾🆁</h1>
+                    <br>
+                    <br>
+                    <table class="padding-table-columns td">
+                        <tr>
+                            <td>
+                                <img alt="" id="img1" width="250" height="250" class="qImageS"><br />
+                                <div class="c1"> Hint:
+                                    <script>
+                                        document.write(flute1);
+                                    </script><br />
+                                </div>
+                                <input class="inputBox" type="text" id="input001" size="20">
+                                <text class="button002" id="check001"></text>
+                            </td>
+                            <td><img alt="" id="img2" width="250" height="250" class="qImageS"><br />
+                                <div class="c1">Hint:
+                                    <script>
+                                        document.write(flute2);
+                                    </script><br />
+                                </div>
+
+                                <input class="inputBox" type="text" id="input002" size="20">
+                                <text class="button002" id="check002"></text>
+                            </td>
+                            <td><img alt="" id="img3" width="250" height="250" class="qImageS"><br />
+                                <div class="c1"> Hint:
+                                    <script>
+                                        document.write(flute3);
+                                    </script><br />
+                                </div>
+                                <input class="inputBox" type="text" id="input003" size="20">
+                                <text class="button002" id="check003"></text>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                        <button class="button001" onclick=submit001()>submit</button>
+                    </div>
+                    <div>
+                        <button class="button001" onclick="PlayAgain001();">Play Again</button><button class="button001"
+                            onclick=EndGame001()>End Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="stbut">
+        <br>
+        <br>
+        <br>
+        <form id="form">
+            <input id="but1" type="submit" name="answer" value="Play Game" class="button003"
+                onclick="startgame(); but1.style.display='none'; div1.style.display='none'" />
+        </form>
+    </div>
+    <div id="box">
+        <h1>VOILA!!!<br> YOU ARE A FOOD<br> 🍔🍕MASTER🍟🌭</h1>
+        <a class="close" onclick="pop()">THANKS</a>
+    </div>
+
+
+
+
+
+
+    </div>
+
+    <br /> <br />
+
+    </div>
+
+    </div>
+</body>
+
+</html>

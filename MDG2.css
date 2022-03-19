@@ -1,0 +1,173 @@
+
+#frame001 {
+
+  background-color: rgb(255, 255, 255);
+
+  border: 2px solid black;
+
+  border-radius: 10px;
+
+  width: auto;
+
+  height: auto;
+
+  padding: 5px;
+}
+
+#color003 {
+
+  color: black;
+
+  font-size: large;
+  text-align: left;
+
+}
+
+#center001 {
+
+  text-align: center;
+
+}
+
+.button001 {
+
+  background-color: rgb(188, 240, 93);
+  color: black;
+
+  border-radius: 10px;
+
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button003 {
+
+  background-color: antiquewhite;
+  color: black;
+  width:300px;
+  font-size: 30px;
+  box-shadow: 20em 40em;
+
+  border-radius: 10px;
+
+  padding: 20px;
+  cursor: pointer;
+}
+.qImageS{
+border: 5px solid #555;
+}
+
+.button002 {
+  width: 10px;
+  height: 10px;
+}
+
+.display-box {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #aba8b4;
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+}
+
+.padding-table-columns td {
+  padding: 0 190px 0 0;
+  /* Only right padding*/
+}
+.page1{
+  background-color: antiquewhite;
+  width: auto;
+  height: auto;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
+
+.instructionsBox {
+  text-align: justify;
+  padding-left: 300px;
+  width: auto;
+  height: auto;
+  background: rgb(177, 62, 81);
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding-left: 290;
+  color: white
+}
+
+.h001 {
+  font-size: large;
+}
+
+.h002 {
+  font-size: xx-large;
+}
+.quizBox{
+background-image: "drawn-funny-food-stickers-collection_23-2148369809.jpeg";
+}
+.inputBox{
+background-color: #cdc3ec;
+}
+.btn{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: pink;
+      font-size: 20px;
+      color: white;
+      padding: 10px 30px;
+      cursor: pointer;
+    }
+    #box{
+        background-image:url(drawn-funny-food-stickers-collection_23-2148369809.jpeg);
+      width: 500px;
+      overflow: hidden;
+      
+      box-shadow: 0 0 10px black;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+      padding: 10px;
+      text-align: center;
+      display: none;
+    }
+    #box span{
+      color: hotpink;
+      font-size: 40px;
+      display: block;
+      margin: 20px 0;
+    }
+    #box h1{
+      color: brown
+    38
+    }
+    .close{
+      font-size: 18px;
+      color: white;
+      padding: 10px 20px;
+      cursor: pointer;
+      background: rgb(40, 4, 201);
+      display: inline-block;
+      border-radius:25px;
+    }
+    
+    body  {
+       
+        border: 2px solid black;
+  padding: 25px;
+  background: url(pexels-trang-doan-1092730.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.b1{
+    background-image:url(drawn-funny-food-stickers-collection_23-2148369809.jpeg)
+}
+.c1{
+    background-color: white;
+}
+      
